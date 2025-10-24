@@ -1,0 +1,11 @@
+/vendor/
+/.idea/
+/.vscode/
+.env
+application/logs/*
+!application/logs/index.html
+application/cache/*
+!application/cache/index.html
+/public/uploads/*
+!/public/uploads/.gitkeep
+composer.lock
