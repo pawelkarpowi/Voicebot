@@ -63,5 +63,8 @@ $route['auctions/(:num)'] = 'auctions/show/$1';
 $route['api/auctions'] = 'api/auctions/router';
 $route['api/auctions/(:num)'] = 'api/auctions/router/$1';
 
+// Vapi API
+$route['api/vapi/minutes'] = 'api/vapi/minutes';
+
 // Migrations
 $route['migrate'] = 'migrate/index';
