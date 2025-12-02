@@ -65,3 +65,6 @@ $route['api/auctions/(:num)'] = 'api/auctions/router/$1';
 
 // Migrations
 $route['migrate'] = 'migrate/index';
+
+// Static pages
+$route['regulamin'] = 'welcome/regulamin';
